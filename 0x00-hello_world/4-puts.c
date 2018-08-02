@@ -1,4 +1,4 @@
-#include <stdio.h> /*library command puts is stored in */
+#include <stdio.h>
 
 int main()
 {
