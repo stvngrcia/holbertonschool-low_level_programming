@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - This is a description
+ * Return: 0
+ */
+
+int main(void)
 {
     char a;
     char b;
