@@ -2,6 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - Prints random number and states if neg, pos or 0
+ * Return: 0
+ */
 
 int main(void)
 {
