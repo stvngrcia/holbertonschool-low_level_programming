@@ -1,28 +1,28 @@
 #include <stdio.h>
 
-int main(){
-    
-    char a;
-    char b;
+int main(void)
+{
+char a;
+char b;
 
-    a = 'a';
-    b = '\n';
-    
-    while (a <= 'z')
-    {
-        putchar(a);
+a = 'a';
+b = '\n';
 
-        if (a == 'p' || a == 'd')
-        {
-            a = a + 2;
-        } 
-        else 
-        {
-            a = a + 1;
-        }
-    }
+while (a <= 'z')
+{
+	putchar(a);
 
-    putchar(b);
+	if (a == 'p' || a == 'd')
+	{
+		a = a + 2;
+	}
+	else
+	{
+		a = a + 1;
+	}
+}
 
-    return 0;
+putchar(b);
+
+return (0);
 }
