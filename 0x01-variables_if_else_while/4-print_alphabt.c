@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - This prints every lowercase letter except e & q
+ * Return: 0
+ */
+
 int main(void)
 {
 char a;

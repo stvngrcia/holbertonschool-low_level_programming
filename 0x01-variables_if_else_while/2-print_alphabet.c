@@ -13,6 +13,7 @@ char b;
 a = 'a';
 b = '\n';
 
+
 while (a <= 'z')
 {
 	putchar(a); /* putchar allows you to not have to store value and recall */
@@ -21,3 +22,4 @@ while (a <= 'z')
 putchar(b);
 return (0);
 }
+

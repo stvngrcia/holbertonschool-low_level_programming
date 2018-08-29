@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - This is a description
+ * main - This prints the alphabet in Upper and Lower
  * Return: 0
  */
 
