@@ -1,19 +1,24 @@
 #include <stdio.h>
 
+/**
+ * main - print lowercase alphabet once in reverse
+ * Return: 0
+ */
+
 int main(void)
 {
-    char z;
-    char n;
+char z;
+char n;
 
-    z = 'z';
-    n = '\n';
+z = 'z';
+n = '\n';
 
-    while (z >= 'a')
-    {
-        putchar(z);
+while (z >= 'a')
+{
+	putchar(z);
+	z = z - 1;
+}
 
-        z = z - 1;
-    }
-    putchar(n);
-    return 0;
+putchar(n);
+return (0);
 }
