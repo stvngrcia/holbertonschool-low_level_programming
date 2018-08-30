@@ -13,16 +13,16 @@ int s;
 int n;
 
 a = '0';
-c= ',';
+c = ',';
 s = ' ';
 n = '\n';
 
-while(a <= '9')
+while (a <= '9')
 {
 	putchar(a);
 	a = a + 1;
 
-	if(a <= '9')
+	if (a <= '9')
 	{
 		putchar(c);
 		putchar(s);
