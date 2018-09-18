@@ -1,19 +1,8 @@
 #include <stdio.h>
 #include "holberton.h"
-void print_alphabet(void);
-/**
- * main - Prints calls function print_alphabet
- * Return: 0
- **/
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 /**
- * print_alphabet - prints a-z followe by whitespace
+ * print_alphabet - prints a-z followed by whitespace
  **/
 
 void print_alphabet(void)
