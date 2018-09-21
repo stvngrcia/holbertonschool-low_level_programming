@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	alpha = 'a';
 	times = 0;
 
-	while (times <= 10)
+	while (times <= 9)
 	{
 		_putchar(alpha);
 		alpha = alpha + 1;
