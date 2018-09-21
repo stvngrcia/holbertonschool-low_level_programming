@@ -7,7 +7,7 @@
 void print_alphabet_x10(void)
 {
 	char alpha;
-	char times;
+	int times;
 
 	alpha = 'a';
 	times = 0;
@@ -17,12 +17,11 @@ void print_alphabet_x10(void)
 		_putchar(alpha);
 		alpha = alpha + 1;
 
-		if (alpha == 'z')
+		if (alpha == '{') /* this is the value stored after z*/
 		{
 			alpha = 'a';
 			times = times + 1;
 		}
 	}
-
 	_putchar('\n');
 }
