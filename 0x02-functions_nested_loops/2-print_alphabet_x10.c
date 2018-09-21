@@ -21,7 +21,7 @@ void print_alphabet_x10(void)
 		{
 			alpha = 'a';
 			times = times + 1;
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
