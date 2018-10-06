@@ -24,13 +24,12 @@ void times_table(void)
 		first = (a * b / 10);
 
 		if (first >= 1)
-		{
+
 			_putchar(first + '0');
-		}
+
 		if (first < 1 && b >= 1)
-		{
+
 			_putchar(space);
-		}
 
 		_putchar(a * b % 10 + '0');
 		b = b + 1;
