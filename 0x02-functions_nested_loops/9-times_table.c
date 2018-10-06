@@ -12,14 +12,12 @@ void times_table(void)
 	char space;
 	char comma;
 	char newline;
-	char ds;
 
 	a = 0;
 	b = 0;
 	space = ' ';
 	comma = ',';
 	newline = '\n';
-	ds = '$';
 
 	while (a < 10)
 	{
@@ -29,10 +27,11 @@ void times_table(void)
 		{
 			_putchar(first + '0');
 		}
-		else
+		if (first < 1 && b >= 1)
 		{
 			_putchar(space);
 		}
+
 		_putchar(a * b % 10 + '0');
 		b = b + 1;
 
@@ -45,7 +44,6 @@ void times_table(void)
 		{
 			a = a + 1;
 			b = 0;
-			_putchar (ds);
 			_putchar(newline);
 		}
 	}
